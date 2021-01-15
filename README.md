@@ -37,3 +37,17 @@ Several tweets were collected regarding  the aforementioned social media platfor
 | sentiment | The outcome of sentiment analysis based on polarity. Classifies a tweet as “positive”, “negative” or “neutral”. |
 
 
+## 3. Pre-process tweets to prepare for the sentiment analysis.
+Data cleansing constitutes a crucial step for an accurate sentiment analysis since tweets often contain many abbreviations, punctuations, URLs, and other characters that can make the sentiment analysis a challenging task. “clean_tweet” function is utilized in order to deal with these mentioned cases.
+
+```ruby
+    def clean_tweet(self, tweet): 
+        tweet = ' '.join(re.sub("(@[A-Za-z0-9]+)|([^0-9A-Za-z \t])|(\w+:\/\/\S+)", " ", tweet).split()) 
+        return tweet
+```
+
+
+
+
+
+

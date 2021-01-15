@@ -56,13 +56,10 @@ Python's library "TextBlob" was used to conduct the classification of the collec
         analysis = TextBlob(self.clean_tweet(tweet)) 
         # Set sentiment.
         if analysis.sentiment.polarity > 0: 
-            #print(analysis.sentiment.polarity, 'positive')
             return 'positive'
         elif analysis.sentiment.polarity < 0:
-            #print(analysis.sentiment.polarity, 'negative')
             return 'negative'
         else:
-            #print('neutral')
             return 'neutral'
 ```
 

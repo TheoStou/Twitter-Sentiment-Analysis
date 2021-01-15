@@ -20,3 +20,9 @@ For this analysis, it is significant to apply for a Twitter developer account. T
 ## 2. Collect and store tweets into a database.
 Several tweets were collected regarding  the aforementioned social media platforms, Instagram, Snapchat, and WhatsApp, using directly Twitter API. For this specific occasion, MySQL workbench was utilized to construct and manage the database. The total amount of the collected tweets were in English language and were stored in a new created table named “social”. The structure of the (table) is demonstrated down below.
 
+| Columns | Description |
+| :--- | :--- |
+| user_id | The user identification number. |
+| user | Username of the account wrote the tweet. |
+
+

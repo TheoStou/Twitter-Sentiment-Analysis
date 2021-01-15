@@ -47,7 +47,24 @@ Data cleansing constitutes a crucial step for an accurate sentiment analysis sin
 ```
 
 
+## 4. Apply sentiment analysis.
+Python's library "TextBlob" was used to conduct the classification of the collected tweets. "TextBlob" defines is mainly utilized in textual data and provide us with two float scores, polarity, and subjectivity. The former of the two scores is analyzed to classify a tweet as positive (polarity > 0.0), negative (polarity < 0.0), or neutral (polarity equals to 0.0), whereas the latter of the two scores, subjectivity, characterizes a tweet either as a subjective opinion or as an objective fact. The  function "get_tweet_sentiment" is used to measure the sentiment of a given tweet. 
 
+```ruby
+    def get_tweet_sentiment(self, tweet): 
+        # Create TextBlob object of passed tweet text.
+        analysis = TextBlob(self.clean_tweet(tweet)) 
+        # Set sentiment.
+        if analysis.sentiment.polarity > 0: 
+            #print(analysis.sentiment.polarity, 'positive')
+            return 'positive'
+        elif analysis.sentiment.polarity < 0:
+            #print(analysis.sentiment.polarity, 'negative')
+            return 'negative'
+        else:
+            #print('neutral')
+            return 'neutral'
+```
 
 
 

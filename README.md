@@ -52,9 +52,8 @@ Python's library "TextBlob" was used to conduct the classification of the collec
 
 ```ruby
     def get_tweet_sentiment(self, tweet): 
-        # Create TextBlob object of passed tweet text.
         analysis = TextBlob(self.clean_tweet(tweet)) 
-        # Set sentiment.
+        # Set the sentiment.
         if analysis.sentiment.polarity > 0: 
             return 'positive'
         elif analysis.sentiment.polarity < 0:
@@ -62,6 +61,11 @@ Python's library "TextBlob" was used to conduct the classification of the collec
         else:
             return 'neutral'
 ```
+
+
+## 5. Evaluate the results.
+Data visualization is a substantial part of any analysis. Therefore a representation of data will help us understand any possible relationship between the variables.
+
 
 
 

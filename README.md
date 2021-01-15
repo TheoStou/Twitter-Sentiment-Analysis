@@ -16,3 +16,7 @@ Twitter sentiment analysis is defined as the automated procedure of distinguishi
 ## 1. Create a Twitter developer account.
 For this analysis, it is significant to apply for a Twitter developer account. The Twitter developer portal is a set of self-service tools that we can manage our access to the APIs with a set of credentials that we must pass with requests. Therefore, an app was created, giving access to some credentials such as the API key, the API secret key as well as the access tokens, and the access token secret- allowing to proceed with the authentication of the program.
 
+
+## 2. Collect and store tweets into a database.
+Several tweets were collected regarding  the aforementioned social media platforms, Instagram, Snapchat, and WhatsApp, using directly Twitter API. For this specific occasion, MySQL workbench was utilized to construct and manage the database. The total amount of the collected tweets were in English language and were stored in a new created table named “social”. The structure of the (table) is demonstrated down below.
+

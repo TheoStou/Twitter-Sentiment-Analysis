@@ -24,5 +24,16 @@ Several tweets were collected regarding  the aforementioned social media platfor
 | :--- | :--- |
 | user_id | The user identification number. |
 | user | Username of the account wrote the tweet. |
+| created_at | Date and time when tweet exactly written. |
+| category | Indicates the social media platform in which the tweet refers to. |
+| tweet | The main text of the tweet. |
+| tweet_no | The number of tweets that the specific twitter account has posted altogether. |
+| retweet_no | The number of the retweets that the tweet post has. |
+| location | Information about the location of the user that made a tweet post. |
+| followers | The number of followers that the specific twitter account has. |
+| hashtags | Hashtags associated with the tweet post. |
+| polarity | Occurs from the sentiment analysis, providing how positive or negative a tweet is. It takes numbers between -1.0 and 1.0. |
+| subjectivity | Classifies a tweet as opinionated or not. It takes numbers between 0 and 1. |
+| sentiment | The outcome of sentiment analysis based on polarity. Classifies a tweet as “positive”, “negative” or “neutral”. |
 
 

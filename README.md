@@ -11,3 +11,8 @@ Twitter sentiment analysis is defined as the automated procedure of distinguishi
 3. Pre-process tweets to prepare for the sentiment analysis.
 4. Apply sentiment analysis.
 5. Evaluate the results.
+
+
+## 1. Create a Twitter developer account.
+For this analysis, it is significant to apply for a Twitter developer account. The Twitter developer portal is a set of self-service tools that we can manage our access to the APIs with a set of credentials that we must pass with requests. Therefore, an app was created, giving access to some credentials such as the API key, the API secret key as well as the access tokens, and the access token secret- allowing to proceed with the authentication of the program.
+

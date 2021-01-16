@@ -10,7 +10,7 @@ Twitter sentiment analysis is defined as the automated procedure of distinguishi
 2. Collect and store tweets into a database.
 3. Pre-process tweets to prepare for the sentiment analysis.
 4. Apply sentiment analysis.
-5. Evaluate the results.
+5. Visualize the results.
 
 
 ## 1. Create a Twitter developer account.
@@ -63,7 +63,7 @@ Python's library "TextBlob" was used to conduct the classification of the collec
 ```
 
 
-## 5. Evaluate the results.
+## 5. Visualize the results.
 Data visualization is a substantial part of any analysis. Therefore a representation of data will help us understand any possible relationship between the different variables. The Graphs.py file provide various plots (categorical plots, density plots, times series plots, a bar chart, a word cloud). An example of two density plots regarding the polarity and the subjectivity are demonstrated down below. 
 
 ![Density Plot of Polarity](https://user-images.githubusercontent.com/74372152/104822178-611bc980-5849-11eb-8249-d29d11a804f5.png) <br/>

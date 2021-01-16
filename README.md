@@ -67,12 +67,12 @@ Python's library "TextBlob" was used to conduct the classification of the collec
 Data visualization is a substantial part of any analysis. Therefore a representation of data will help us understand any possible relationship between the different variables. The Graphs.py file provide various plots (categorical plots, density plots, times series plots, a bar chart, a word cloud). An example of two density plots regarding the polarity and the subjectivity are demonstrated down below. 
 
 <p align="center">
-  <img width="600" height="450" src="https://user-images.githubusercontent.com/74372152/104822178-611bc980-5849-11eb-8249-d29d11a804f5.png">
+  <img width="500" height="370" src="https://user-images.githubusercontent.com/74372152/104822178-611bc980-5849-11eb-8249-d29d11a804f5.png">
 </p>
 <p align="center"> Density Plot of Polarity. <p align="center">
 
 <p align="center">
-  <img width="600" height="450" src="https://user-images.githubusercontent.com/74372152/104822241-c53e8d80-5849-11eb-814b-4e60f3d9b87b.png">
+  <img width="500" height="370" src="https://user-images.githubusercontent.com/74372152/104822241-c53e8d80-5849-11eb-814b-4e60f3d9b87b.png">
 </p>
 <p align="center"> Density Plot of Subjectivity. <p align="center">
 

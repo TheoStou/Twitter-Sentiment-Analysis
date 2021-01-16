@@ -66,6 +66,7 @@ Python's library "TextBlob" was used to conduct the classification of the collec
 ## 5. Evaluate the results.
 Data visualization is a substantial part of any analysis. Therefore a representation of data will help us understand any possible relationship between the different variables.
 
+![alt text](https://github.com/TheoStou/Twitter-Sentiment-Analysis/blob/Granph_Examples/Density Plot of Polarity.png?raw=true)
 
 
 

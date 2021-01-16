@@ -64,7 +64,7 @@ Python's library "TextBlob" was used to conduct the classification of the collec
 
 
 ## 5. Evaluate the results.
-Data visualization is a substantial part of any analysis. Therefore a representation of data will help us understand any possible relationship between the different variables.
+Data visualization is a substantial part of any analysis. Therefore a representation of data will help us understand any possible relationship between the different variables. The Graphs.py file provide various plots (categorical plots, density plots, times series plots, a bar chart, a word cloud). An example of two density plots regarding the polarity and the subjectivity are demonstrated down below. 
 
 ![Density Plot of Polarity](https://user-images.githubusercontent.com/74372152/104822178-611bc980-5849-11eb-8249-d29d11a804f5.png) <br/>
 Density Plot of Polarity. 

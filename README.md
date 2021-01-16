@@ -76,4 +76,7 @@ Data visualization is a substantial part of any analysis. Therefore a representa
 </p>
 <p align="center"> Density Plot of Subjectivity. <p align="center">
 
-
+## References
+[1] https://textblob.readthedocs.io/en/dev/quickstart.html#sentiment-analysis <br/>
+[2] https://dl.acm.org/doi/10.1145/3209281.3209313 <br/>
+[3] https://www.geeksforgeeks.org/twitter-sentiment-analysis-using-python/

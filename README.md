@@ -10,12 +10,11 @@ Table of Contents
 * [Basic Libraries](#basic-libraries)
 * [Methodology](#methodology)
   * [1. Create a Twitter developer account.](#1-create-a-twitter-developer-account)
-  * [2. Collect and store tweets into a database.](#2-collect-and-store-tweets-into-a-database.)
-  * [3. Pre-process tweets to prepare for the sentiment analysis.](#3-pre-process-tweets-to-prepare-for-the-sentiment-analysis.)
-  * [4. Apply sentiment analysis.](#4-apply-sentiment-analysis.)
-  * [5. Visualize the results.](#5-visualize-the-results-.)
+  * [2. Collect and store tweets into a database.](#2-collect-and-store-tweets-into-a-database)
+  * [3. Pre-process tweets to prepare for the sentiment analysis.](#3-pre-process-tweets-to-prepare-for-the-sentiment-analysis)
+  * [4. Apply sentiment analysis.](#4-apply-sentiment-analysis)
+  * [5. Visualize the results.](#5-visualize-the-results)
 * [References](#references)
-  * [1. Test](#1-test)
 
 
 
@@ -107,5 +106,3 @@ Data visualization is a substantial part of any analysis. Therefore a representa
 [1] https://textblob.readthedocs.io/en/dev/quickstart.html#sentiment-analysis <br/>
 [2] https://dl.acm.org/doi/10.1145/3209281.3209313 <br/>
 [3] https://www.geeksforgeeks.org/twitter-sentiment-analysis-using-python/
-
-### 1. Test

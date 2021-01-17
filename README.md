@@ -4,6 +4,18 @@
 
 Twitter sentiment analysis is defined as the automated procedure of distinguishing and extracting personal information that underlies a text. This information may contain an opinion, an assessment, or even an emotional expression about a topic or a matter. Primarily, one of the most common types of sentiment analysis used, is that of the polarity score, classifying an expression as “positive”, “negative” or “neutral”. The scope of this report is to develop a sentiment analysis based on Twitter, gather user information about three substantial social media platforms “WhatsApp”, “Snapchat” and “Instagram” and provide the results of this analysis. To fulfill our purpose, we start by creating a developer account on Twitter, so as to have access to our API key, as well as a database table where we can store the desired data. Then we use python to preprocess(clean) the unstructured tweets to prepare them for the stage of sentiment analysis. With the help of the TextBlob python's library we implement a sentiment analysis, categorizing the tweets as positive, negative, or neutral.
 
+## Prerequisites
+| **Library** | **Description** |
+| :--- | :--- |
+| tweepy | Access Twitter API. |
+| re | Alternative regular expression module. |
+| mysql.connector | Communication with MySQL server. |
+| pandas | Handle data structures and data analysis tool. |
+| numpy | Process numbers, strings, records and objects. |
+| matplotlib.pyplot | Implement plots. |
+| seaborn | Python data visualization library based on matplotlib. |
+| json | Provide decoding/encoding. |
+
 
 ## Methodology
 1. Create a Twitter developer account.

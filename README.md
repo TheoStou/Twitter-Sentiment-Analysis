@@ -9,7 +9,7 @@ Table of Contents
 
 * [Basic Libraries](#basic-libraries)
 * [Methodology](#methodology)
-    * [1. Create a Twitter developer account.](#1.-create-a-twitter-developer-account.)
+    * [1. Create a Twitter developer account.](#create-a-twitter-developer-account)
     * [2. Collect and store tweets into a database.](#2.-collect-and-store-tweets-into-a-database.)
     * [3. Pre-process tweets to prepare for the sentiment analysis.](#3.-pre-process-tweets-to-prepare-for-the-sentiment-analysis.)
     * [4. Apply sentiment analysis.](#4.-apply-sentiment-analysis.)

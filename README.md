@@ -39,11 +39,11 @@ Table of Contents
 5. Visualize the results.
 
 
-## 1. Create a Twitter developer account.
+### 1. Create a Twitter developer account.
 For this analysis, it is significant to apply for a Twitter developer account. The Twitter developer portal is a set of self-service tools that we can manage our access to the APIs with a set of credentials that we must pass with requests. Therefore, an app was created, giving access to some credentials such as the API key, the API secret key as well as the access tokens, and the access token secret- allowing to proceed with the authentication of the program.
 
 
-## 2. Collect and store tweets into a database.
+### 2. Collect and store tweets into a database.
 Several tweets were collected regarding  the aforementioned social media platforms, Instagram, Snapchat, and WhatsApp, using directly Twitter API. For this specific occasion, MySQL workbench was utilized to construct and manage the database. The total amount of the collected tweets were in English language and were stored in a new created table named “social”. The structure of the (table) is demonstrated down below.
 
 | **Columns** | **Description** |
@@ -63,7 +63,7 @@ Several tweets were collected regarding  the aforementioned social media platfor
 | sentiment | The outcome of sentiment analysis based on polarity. Classifies a tweet as “positive”, “negative” or “neutral”. |
 
 
-## 3. Pre-process tweets to prepare for the sentiment analysis.
+### 3. Pre-process tweets to prepare for the sentiment analysis.
 Data cleansing constitutes a crucial step for an accurate sentiment analysis since tweets often contain many abbreviations, punctuations, URLs, and other characters that can make the sentiment analysis a challenging task. “clean_tweet” function is utilized in order to deal with these mentioned cases.
 
 ```ruby
@@ -73,7 +73,7 @@ Data cleansing constitutes a crucial step for an accurate sentiment analysis sin
 ```
 
 
-## 4. Apply sentiment analysis.
+### 4. Apply sentiment analysis.
 Python's library "TextBlob" was used to conduct the classification of the collected tweets. "TextBlob" defines is mainly utilized in textual data and provide us with two float scores, polarity, and subjectivity. The former of the two scores is analyzed to classify a tweet as positive (polarity > 0.0), negative (polarity < 0.0), or neutral (polarity equals to 0.0), whereas the latter of the two scores, subjectivity, characterizes a tweet either as a subjective opinion or as an objective fact. The  function "get_tweet_sentiment" is used to measure the sentiment of a given tweet. 
 
 ```ruby
@@ -89,7 +89,7 @@ Python's library "TextBlob" was used to conduct the classification of the collec
 ```
 
 
-## 5. Visualize the results.
+### 5. Visualize the results.
 Data visualization is a substantial part of any analysis. Therefore a representation of data will help us understand any possible relationship between the different variables. The Graphs.py file provides various plots (categorical plots, density plots, times series plots, a bar chart, a word cloud). An example of two density plots regarding the polarity and the subjectivity is demonstrated down below. 
 
 <p align="center">

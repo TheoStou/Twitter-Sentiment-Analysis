@@ -13,7 +13,7 @@ Table of Contents
     * [2. Collect and store tweets into a database.](#2.-collect-and-store-tweets-into-a-database.)
     * [3. Pre-process tweets to prepare for the sentiment analysis.](#3.-pre-process-tweets-to-prepare-for-the-sentiment-analysis.)
     * [4. Apply sentiment analysis.](#4.-apply-sentiment-analysis.)
-    * [5. Visualize the results.](#5.-visualize-the-results.)
+    * [5. Visualize the results.](#5-.-visualize-the-results-.)
 * [References](#references)
 
 

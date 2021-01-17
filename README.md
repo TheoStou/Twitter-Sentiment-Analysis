@@ -15,7 +15,7 @@ Table of Contents
   * [4. Apply sentiment analysis.](#4.-apply-sentiment-analysis.)
   * [5. Visualize the results.](#5-.-visualize-the-results-.)
 * [References](#references)
-  * [1. Test](#test)
+  * [1. Test](#1-test)
 
 
 

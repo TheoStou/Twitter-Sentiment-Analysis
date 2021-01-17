@@ -15,7 +15,7 @@ Table of Contents
   * [4. Apply sentiment analysis.](#4.-apply-sentiment-analysis.)
   * [5. Visualize the results.](#5-.-visualize-the-results-.)
 * [References](#references)
-  * [Test](#test)
+  * [1. Test](#test)
 
 
 
@@ -108,4 +108,4 @@ Data visualization is a substantial part of any analysis. Therefore a representa
 [2] https://dl.acm.org/doi/10.1145/3209281.3209313 <br/>
 [3] https://www.geeksforgeeks.org/twitter-sentiment-analysis-using-python/
 
-### Test
+### 1. Test
